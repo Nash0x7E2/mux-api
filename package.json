@@ -1,0 +1,21 @@
+{
+  "name": "mux_api",
+  "version": "1.0.0",
+  "description": "Simple api for retriving livestreams and videos in mux",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "Livestreaming",
+    "javascript",
+    "mux"
+  ],
+  "author": "Neevash Ramdial (Nash)",
+  "license": "MIT",
+  "dependencies": {
+    "@mux/mux-node": "^3.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
